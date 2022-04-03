@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font: 100%/1.5em 'Roboto', sans-serif;
+	color: #000;
+	font-weight: 300;
+}
+
+a{
+    color: #787883;
+}
+
+a:hover{
+    border-bottom: 1px dashed #323272;
+    text-decoration: none;
+    color: #323272;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    background-color: #FAEBD7;
+    text-align: center;
+    padding: 0.6em 0;
+}
+
+header h1{
+    font-size: 2.5em;
+    margin: 0.6em 0;
+}
+
+header h2{
+    font-size: 1.6em;
+    margin: 0.4em 0;
+}
+
+menu{
+    margin: 0.6em 0;
+    font-weight: 400;
+}
+
+menu ul{
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+menu ul li{
+    display: inline-block;
+    padding: 0.8em 1.2em;
+    border: 1px solid;
+    width: 150px;
+}
+
+footer menu{
+    margin: 0.2em 0;
+    font-weight: 400;
+}
+
+footer menu ul{
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+footer menu ul li{
+    display: inline-block;
+    padding: 0.3em 0.3em;
+    border: 1px solid;
+    width: 7%;
+}
+
+main{
+    text-align: center;
+    padding: 1.3em 0;
+    width: 85%;
+    margin: 0 auto;
+}
+
+main a{
+    background-color: #fcf5eb;
+}
+
+main a:hover{
+    background-color: #FAEBD7;
+}
+
+main h1{
+    font-size: 2.5em;
+    margin: 0.7em 0;
+}
+
+main h2{
+    font-size: 1.6em;
+    margin: 0.4em 0;
+}
+
+main h3{
+    font-size: 1.4em;
+    margin: 1.8em 0 0.3em 0;
+}
+
+main h4{
+    font-size: 1.3em;
+    margin: 1.3em 0 0.3em 0;
+}
+
+main h5{
+    font-size: 1.2em;
+    margin: 1.2em 0 0.3em 0;
+}
+
+main hr{
+    width: 50%;
+    color: #000000;
+    border-width: 1px;
+    margin: 0 auto;
+    margin-top: 0.2em;
+    margin-bottom: 0;
+    border-style: solid;
+}
+
+main table{
+    border: 1px solid #787883;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 2.8em;
+    text-align: left;
+    font-size: 1.0em;
+}
+
+main table tr{
+    border: 1px solid #787883;
+}
+
+main table tr td{
+    border: 1px solid #787883;
+    padding: 0.2em 0.9em;
+}
+
+main table .zag-1{
+    font-weight: 700;
+}
+
+main table .zag-2{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.6em 0;
+}
+
+.metodik{
+    margin-top: 10px;
+}
+
+.table-1 th{
+    border: 1px solid #787883;
+    text-align: center;
+    padding: 0.2em 0.9em;
+}
+
+.table-1 td{
+    text-align: center;
+}
+
+.table-1 .bottom-line{
+    border-bottom: 2px solid #787883;
+}
+
+.right-line{
+    border-right: 2px solid #787883;
+}
+
+.data{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.data p{
+    text-align: left;
+}
+
+.data p span{
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.sections{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.sections div{
+    margin-bottom: 1.3em;
+}
+
+.sections ul{
+    list-style-type: none;
+}
+
+.sections li{
+    padding-left: 1.9em;
+    background-image: url(Images/arrow.png);
+    background-position: 0 0.2em;
+    background-size: 1.6em;
+    background-repeat: no-repeat;
+}
+
+.date_now{
+    margin-top: 2.5em;
+    font-weight: 400;
+}
+
+.my_name{
+    font-size: 1.8em;
+    margin-top: 2.6em;
+}
+
+.my_link{
+    text-align: left;
+}
+
+.my_target{
+    text-align: left;
+    padding-top: 1.4em;
+}
+
+.section-5 ul{
+    list-style-type: none;
+}
+
+.section-5 li{
+    margin-left: -1.3em;
+    padding-left: 1.9em;
+    background-image: url(Images/arrow.png);
+    background-position: 0 0.2em;
+    background-size: 1.6em;
+    background-repeat: no-repeat;
+}
+
+.name_sections{
+    font-size: 1.8em;
+    margin-top: 0.6em;
+}
+
+.sub-text{
+    font-size: 0.7em;
+    margin-top: -0.5em;
+}
+
+.social{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.zag-3{
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.social ul{
+    list-style-type: none;
+}
+.social li{
+    padding-left: 1.9em;
+    background-image: url(Images/arrow.png);
+    background-position: 0 0;
+    background-size: 1.7em;
+    background-repeat: no-repeat;
+    margin-bottom: 0.9em;
+    margin-top: 0.3em;
+    font-size: 1.3em;
+}
+
+.name-tab{
+    text-align: right;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    margin: 0.8em 0;
+    padding: 0.6em 0;
+    background-color: antiquewhite;
+    font-weight: 400;
+}
+
+.spoiler{
+	color: #ffffff;
+}
